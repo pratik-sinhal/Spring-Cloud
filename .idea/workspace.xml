@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c20340-69a3-4490-8f70-70dff39579ce" name="Default Changelist" comment="" />
+    <list default="true" id="33c20340-69a3-4490-8f70-70dff39579ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation-business-services.iml" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-business-services.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation-business-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-business-services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservation-business-services/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/reservation-business-services/src/main/resources/bootstrap.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,8 +36,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1aIPtPBs1P1Y2t6acGPFRjrdkRt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/room-services/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring-Boot-Project/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,13 +61,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GuestServicesApplication">
+  <component name="RunManager" selected="Application.RoomServicesApplication">
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.frankmoley.service.config.ConfigServerApplication" />
       <module name="config-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.frankmoley.service.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frankmoley.service.discovery.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.frankmoley.service.discovery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReservationServicesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.frankmoley.services.reservation.ReservationServicesApplication" />
-      <module name="reservation-services" />
+    <configuration name="RoomServicesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frankmoley.services.room.RoomServicesApplication" />
+      <module name="room-services" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.frankmoley.services.reservation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReservationWebappApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.frankmoley.webapp.reservation.ReservationWebappApplication" />
-      <module name="reservation-webapp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.frankmoley.webapp.reservation.*" />
+          <option name="PATTERN" value="com.frankmoley.services.room.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuestServicesApplication" />
-        <item itemvalue="Application.ReservationWebappApplication" />
-        <item itemvalue="Application.ReservationServicesApplication" />
+        <item itemvalue="Application.RoomServicesApplication" />
         <item itemvalue="Application.ReservationBusinessServicesApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.GuestServicesApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +146,19 @@
       <updated>1586420348199</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Spring_Cloud$RoomServicesApplication.ic" NAME="RoomServicesApplication Coverage Results" MODIFIED="1586506175747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
