@@ -7,8 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/reservation-services/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/reservation-services/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/reservation-services/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/reservation-services/target" />
       <excludeFolder url="file://$MODULE_DIR$/../../Study Materials/Spring Cloud/Ex_Files_Spring_Spring_Cloud/Exercise Files/Chapter 4/04_03/End/spring-cloud/reservation-services/target" />
+      <excludeFolder url="file://$MODULE_DIR$/reservation-services/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

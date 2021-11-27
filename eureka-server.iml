@@ -7,8 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/eureka-server/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/eureka-server/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/eureka-server/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/eureka-server/target" />
       <excludeFolder url="file://$MODULE_DIR$/../../Study Materials/Spring Cloud/Ex_Files_Spring_Spring_Cloud/Exercise Files/Chapter 4/04_03/End/spring-cloud/eureka-server/target" />
+      <excludeFolder url="file://$MODULE_DIR$/eureka-server/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
